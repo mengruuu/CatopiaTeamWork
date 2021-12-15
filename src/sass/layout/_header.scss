@@ -1,0 +1,38 @@
+body{
+  font-size: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+header {
+  border: 1px solid black;
+  height: 250px;
+  width: 100%;
+  background-color: $second_color3;
+}
+header div.logo{
+  border: 1px solid red;
+  width: 280px;
+  // height: 90.67px;
+  margin: 0 auto;
+}
+header div.logo div.logo_text{
+  border: 1px solid green;
+  display: inline-block;
+  width: 180px;
+  height: 90px;
+}
+header div.logo div.logo_cat{
+  border: 1px solid purple;
+  display: inline-block;
+  position: relative;
+  bottom:8px;
+  width: 77px;
+  height: 77px;
+}
+
+
+
